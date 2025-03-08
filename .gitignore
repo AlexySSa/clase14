@@ -1,0 +1,15 @@
+# Ignorar node_modules y dependencias
+node_modules/
+package-lock.json
+
+# Archivos de entorno
+.env
+
+# Carpetas de compilación
+dist/
+build/
+out/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
