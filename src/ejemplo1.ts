@@ -1,6 +1,3 @@
-console.log("Hola mundo");
-function greet(name: string): void {
-    console.log(`Hola, ${name}!`);
+class User {
+    constructor(public name: string, public age: number) {}
 }
-
-greet("Juan");
